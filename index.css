@@ -1,0 +1,104 @@
+.react-bs-table-container {
+    margin: 5px 10px;
+    float: left;
+  }
+  
+  .tr-string-example, .th-string-example{
+      font-style: oblique;
+      color: red;
+      background-color: aquamarine;
+  }
+  
+  .tr-function-example{
+      font-weight: bold;
+      background-color: aquamarine;
+  }
+  
+  .td-header-string-example{
+      font-style: oblique;
+      color: red;
+      background-color: aquamarine;
+  }
+  
+  .td-column-string-example{
+      color: blue;
+      background-color: antiquewhite;
+  }
+  
+  .td-column-function-odd-example{
+      color: blue;
+      background-color: antiquewhite;
+  }
+  
+  .td-column-function-even-example{
+      color: red;
+      background-color: yellowgreen;
+  }
+  
+  .my-header-class {
+    background-color: #0066FF;
+    float: left;
+  }
+  
+  .my-body-class {
+    background-color: #FFFFFF;
+    float: left;
+  }
+  
+  .my-container-class {
+    border: #0000FF 2.5px solid;
+  }
+  
+  .my-table-container-class {
+    border: #FFBB73 5px solid;
+  }
+  
+  .class-for-editing-cell {
+      background-color: #FFBB73;
+  }
+
+  .filterTop {
+    background: cornflowerblue;
+    position: realtive;
+    margin: -5px;
+    padding-top: 4px;
+    padding-bottom: 9px;
+    margin-top: 15px;
+    margin-left: -211px;
+    margin-right: -466px;
+    overflow-x: auto
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.subtypedropdown {
+    overflow-y:auto; 
+    max-height: 100vh
+}
+
+.checkbox-rounded [type="checkbox"][class*='filled-in']+label:after {
+    border-radius: 50%;
+}
+
+.modal-search {
+    width: -webkit-fill-available;
+}
+
+.modal-column1 {
+    cursor: pointer;
+}
+
+
+
